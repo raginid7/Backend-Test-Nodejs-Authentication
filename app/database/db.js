@@ -1,7 +1,7 @@
 require('dotenv').config()
 const mongoose = require('mongoose');
 exports.connectMonggose =()=>{
-    mongoose.connect('mongodb+srv://raginidhole45:SdR5c5XkJd6wL6QD@cluster0.pnlygkl.mongodb.net/?retryWrites=true&w=majority/',
+    mongoose.connect('mongodb+srv://raginidhole45:<password>@cluster0.pnlygkl.mongodb.net/?retryWrites=true&w=majority/',
                      
     {
         useNewUrlParser: true
